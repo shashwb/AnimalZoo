@@ -24,7 +24,7 @@ Following are the specific tasks we'd like you to undertake:
 2. Adjust the logic in `app/controllers/animals_controller.rb` to send an error message is the validation fails and a success message if the validation passes and the animal is successfully created.
 3. Adjust `AddAnimal.js.jsx`, `ErrorMessage.js.jsx` and `SuccessMessage.js.jsx` in `app/assets/javascripts/components` to acheive the following:
     - Render an error message to the screen via `ErrorMessage.js.jsx` if the AJAX call returns an error; otherwise render `null`.
-    - Render a success message to the screen via `SuccessMessage.js.jsx` if the AJAX call returns an error; otherwise render `null`.
+    - Render a success message to the screen via `SuccessMessage.js.jsx` if the AJAX call returns successfully; otherwise render `null`.
     - Fix the error currently being thrown on line 37 in the AJAX success callback when calling `this.setState({formSuccessMessage: data.message})`.
 
 Once your changes are complete, please push the changes to a repo associated with your own GitHub account and share with the following GitHub user: `zambrose`.
