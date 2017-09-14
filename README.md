@@ -10,7 +10,7 @@
 
 
 
-## Completing the challenge
+## Description
 
 Rails CRUD operations as well as knowledge of a few basic principles of React.
 
